@@ -13,6 +13,12 @@
 		187778E825B375E100C81EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187778E625B375E100C81EE0 /* Main.storyboard */; };
 		187778EA25B375E300C81EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187778E925B375E300C81EE0 /* Assets.xcassets */; };
 		187778ED25B375E300C81EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187778EB25B375E300C81EE0 /* LaunchScreen.storyboard */; };
+		1877790825B3809B00C81EE0 /* stonehange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1877790325B3809B00C81EE0 /* stonehange.jpg */; };
+		1877790925B3809B00C81EE0 /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1877790425B3809B00C81EE0 /* colosseum.jpg */; };
+		1877790A25B3809B00C81EE0 /* kremlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1877790525B3809B00C81EE0 /* kremlin.jpg */; };
+		1877790B25B3809B00C81EE0 /* greatwall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1877790625B3809B00C81EE0 /* greatwall.jpg */; };
+		1877790C25B3809B00C81EE0 /* tacmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1877790725B3809B00C81EE0 /* tacmahal.jpg */; };
+		1877790F25B38C3300C81EE0 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877790E25B38C3300C81EE0 /* imageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		187778E925B375E300C81EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187778EC25B375E300C81EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187778EE25B375E300C81EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1877790325B3809B00C81EE0 /* stonehange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehange.jpg; sourceTree = "<group>"; };
+		1877790425B3809B00C81EE0 /* colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum.jpg; sourceTree = "<group>"; };
+		1877790525B3809B00C81EE0 /* kremlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpg; sourceTree = "<group>"; };
+		1877790625B3809B00C81EE0 /* greatwall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall.jpg; sourceTree = "<group>"; };
+		1877790725B3809B00C81EE0 /* tacmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tacmahal.jpg; sourceTree = "<group>"; };
+		1877790E25B38C3300C81EE0 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		187778DF25B375E100C81EE0 /* LandmarkBook */ = {
 			isa = PBXGroup;
 			children = (
+				1877790425B3809B00C81EE0 /* colosseum.jpg */,
+				1877790625B3809B00C81EE0 /* greatwall.jpg */,
+				1877790525B3809B00C81EE0 /* kremlin.jpg */,
+				1877790325B3809B00C81EE0 /* stonehange.jpg */,
+				1877790725B3809B00C81EE0 /* tacmahal.jpg */,
 				187778E025B375E100C81EE0 /* AppDelegate.swift */,
 				187778E225B375E100C81EE0 /* SceneDelegate.swift */,
 				187778E425B375E100C81EE0 /* ViewController.swift */,
+				1877790E25B38C3300C81EE0 /* imageViewController.swift */,
 				187778E625B375E100C81EE0 /* Main.storyboard */,
 				187778E925B375E300C81EE0 /* Assets.xcassets */,
 				187778EB25B375E300C81EE0 /* LaunchScreen.storyboard */,
@@ -125,7 +143,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				187778ED25B375E300C81EE0 /* LaunchScreen.storyboard in Resources */,
+				1877790B25B3809B00C81EE0 /* greatwall.jpg in Resources */,
+				1877790925B3809B00C81EE0 /* colosseum.jpg in Resources */,
+				1877790825B3809B00C81EE0 /* stonehange.jpg in Resources */,
 				187778EA25B375E300C81EE0 /* Assets.xcassets in Resources */,
+				1877790A25B3809B00C81EE0 /* kremlin.jpg in Resources */,
+				1877790C25B3809B00C81EE0 /* tacmahal.jpg in Resources */,
 				187778E825B375E100C81EE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +162,7 @@
 			files = (
 				187778E525B375E100C81EE0 /* ViewController.swift in Sources */,
 				187778E125B375E100C81EE0 /* AppDelegate.swift in Sources */,
+				1877790F25B38C3300C81EE0 /* imageViewController.swift in Sources */,
 				187778E325B375E100C81EE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
